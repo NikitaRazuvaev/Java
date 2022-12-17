@@ -3,6 +3,8 @@ package Lesson3;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 
 // Создать рандомный список целых чисел +
@@ -36,6 +38,7 @@ public class task {
         System.out.println("Средние арифметическое: ("+average1+")");
         System.out.println("Сортировка слиянием: ("+sortedList+")");
         System.out.println("Удалить из него четные числа: ("+removEvensArrayList(sortedList)+")");
+        System.out.println("Удалить из него четные числа используя лябда-выражения: ("+sortedList.stream().filter(x -> x % 2 != 0 ).collect(Collectors.toList())+")");
          
         
     }
