@@ -1,0 +1,56 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Task",
+            "request": "launch",
+            "mainClass": "Lession5.Task",
+            "projectName": "Java_40a0be11"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task",
+            "request": "launch",
+            "mainClass": "Lession4.Task",
+            "projectName": "Java_40a0be11"
+        },
+        {
+            "type": "java",
+            "name": "Launch task",
+            "request": "launch",
+            "mainClass": "Lesson3.task",
+            "projectName": "Java_40a0be11"
+        },
+        {
+            "type": "java",
+            "name": "Launch first",
+            "request": "launch",
+            "mainClass": "UnitOne.Homework.first",
+            "projectName": "Java_40a0be11"
+        },
+        {
+            "type": "java",
+            "name": "Launch three",
+            "request": "launch",
+            "mainClass": "UnitOne.Homework.three",
+            "projectName": "Java_40a0be11"
+        },
+        {
+            "type": "java",
+            "name": "Launch two",
+            "request": "launch",
+            "mainClass": "UnitOne.Homework.two",
+            "projectName": "Java_40a0be11"
+        }
+    ]
+}
