@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Task2",
+            "request": "launch",
+            "mainClass": "Lession5.Task2",
+            "projectName": "Java_40a0be11"
+        },
+        {
+            "type": "java",
             "name": "Launch Task",
             "request": "launch",
             "mainClass": "Lession5.Task",
